@@ -1,0 +1,26 @@
+:root{
+  --bg:#ffffff;
+  --card:#f6f9fc;
+  --text:#0b1220;
+  --muted:#6b7280;
+  --accent:#0f172a;
+  --primary:#0b5cff;
+}
+html,body,#__next{height:100%}
+body{margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;background:var(--bg);color:var(--text)}
+.container{max-width:1000px;margin:36px auto;padding:20px}
+header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+h1{font-size:22px;margin:0}
+.card{background:var(--card);border-radius:12px;padding:14px;box-shadow:0 6px 18px rgba(12,18,31,0.04)}
+textarea{width:100%;min-height:260px;border:1px solid #e6eef8;border-radius:8px;padding:12px;font-size:15px;resize:vertical}
+.controls{display:flex;gap:10px;margin-top:12px;align-items:center}
+button{background:var(--primary);color:white;border:0;padding:10px 14px;border-radius:8px;cursor:pointer}
+button.secondary{background:transparent;color:var(--primary);border:1px solid #dbeafe}
+.muted{color:var(--muted);font-size:13px}
+.scenes{margin-top:18px;display:flex;flex-direction:column;gap:12px}
+.scene{background:white;border-radius:10px;padding:12px;border:1px solid #f1f5f9}
+.scene h3{margin:0 0 8px 0;font-size:14px}
+pre{white-space:pre-wrap;font-family:inherit;margin:0}
+.top-actions{display:flex;gap:8px;align-items:center}
+.copy-btn{padding:6px 10px;border-radius:8px;border:1px solid #e6eef8;background:white;cursor:pointer}
+footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
